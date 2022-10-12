@@ -68,3 +68,15 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Question: Hi, thank you very much for your video. I have some questions, it would be great if you support to answer
+
+1. What is the point of adding reset.css
+2. How did you set up and use scss in your project
+   Thank you very much
+
+Answer:
+Hi,
+reset.css is used to clear the default properties of browsers. Thus, the codes we write give better results.
+I am using vscode plugin to compile Sass (Live Sass Compiler Plugin)
+
+Right Click on index.html, choose "Open With Live Server" or cd src, npm start.
