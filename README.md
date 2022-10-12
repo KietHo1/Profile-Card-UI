@@ -80,3 +80,5 @@ reset.css is used to clear the default properties of browsers. Thus, the codes w
 I am using vscode plugin to compile Sass (Live Sass Compiler Plugin)
 
 Right Click on index.html, choose "Open With Live Server" or cd src, npm start.
+
+Link Youtube: https://www.youtube.com/watch?v=kkS2ess19es&t=328s
