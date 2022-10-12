@@ -14,10 +14,10 @@ body::before {
   inset: 0;
   z-index: -1;
   pointer-events: none;
-  background: url("../maincode/mybackground.jpg") no-repeat center;
+  background: url("../mybackground.jpg") no-repeat center;
   background-size: cover;
   -webkit-animation: backgroundZoomAnimate 20s forwards;
-          animation: backgroundZoomAnimate 20s forwards;
+  animation: backgroundZoomAnimate 20s forwards;
 }
 
 .profile-card_title {
@@ -50,7 +50,7 @@ body::before {
   width: 650px;
   position: relative;
   -webkit-backdrop-filter: blur(15px);
-          backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
   border: 2px solid rgba(255, 255, 255, 0.2509803922);
   padding: 3rem 5rem;
   display: flex;
@@ -68,7 +68,7 @@ body::before {
   height: 200px;
   border-radius: 50%;
   -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
   display: block;
   box-shadow: 0 10px 60px -10px rgba(13, 28, 39, 0.5);
 }
@@ -151,7 +151,15 @@ body::before {
   box-shadow: 0 4px 30px rgba(19, 127, 212, 0.7);
 }
 .profile-card_social a.instagram {
-  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  background: linear-gradient(
+    45deg,
+    #405de6,
+    #5851db,
+    #833ab4,
+    #c13584,
+    #e1306c,
+    #fd1d1d
+  );
   box-shadow: 0 4px 30px rgba(120, 64, 190, 0.6);
 }
 .profile-card_social a.behance {
@@ -215,4 +223,4 @@ body::before {
 }
 .profile-card_actions > button.orange:hover {
   box-shadow: 0 4px 30px rgba(223, 45, 70, 0.75);
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
