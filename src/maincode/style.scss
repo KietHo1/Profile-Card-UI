@@ -21,6 +21,13 @@ body {
   }
 }
 
+.profile-card_title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  justify-content: center;
+}
+
 @keyframes backgroundZoomAnimate {
   from {
     transform: scale(1);
