@@ -184,6 +184,7 @@ body {
       padding: 15px 0;
       min-width: 250px;
       border-radius: 50px;
+      text-align: center;
       color: white;
       cursor: pointer;
       transition: all 0.2s;
@@ -194,8 +195,32 @@ body {
 
       @media screen and (max-width: 576px) {
         min-width: inherit;
-        width: 100px;
+        width: 100%;
         max-width: 350px;
+      }
+
+      @media screen and (min-width: 576px) {
+        &:hover {
+          transform: translateY(-5px);
+        }
+      }
+
+      &.blue {
+        background: linear-gradient(45deg, #1da1f2, #0e71c8);
+        box-shadow: 0 4px 30px rgba(19, 127, 212, 0.4);
+
+        &:hover {
+          box-shadow: 0 4px 30px rgba(19, 127, 212, 0.75);
+        }
+      }
+
+      &.orange {
+        background: linear-gradient(45deg, #d5135a, #f05924);
+        box-shadow: 0 4px 30px rgba(223, 45, 70, 0.35);
+
+        &:hover {
+          box-shadow: 0 4px 30px rgba(223, 45, 70, 0.75);
+        }
       }
     }
   }
