@@ -1,5 +1,4 @@
 import "./App.css";
-import "./";
 function App() {
   return (
     <div className="App">
@@ -11,7 +10,10 @@ function App() {
       <body>
         <div class="profile-card">
           <figure class="profile-card_img">
-            <img src="../maincode/Img.jpg" alt="..." />
+            <img
+              src="https://ae01.alicdn.com/kf/H0ab9cc6e9ead40dc9ca2d5c297e6b48a5/Anime-JoJo-s-Bizarre-Adventure-Stone-Ocean-Badges-Cosplay-Cujo-Anasui-Fighters-Weather-Report-Pins-Costume.jpg_640x640.jpg"
+              alt="..."
+            />
           </figure>
           <div class="profile-card_desc">
             <h1>Weather Report (JOJO)</h1>
